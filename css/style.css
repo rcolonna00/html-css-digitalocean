@@ -17,7 +17,7 @@ img{
 }
 
 .background_blu{
-    background-color: #0033af;
+    background-image: linear-gradient(#0048C6, #001F9A);
 }
 
 h2{
@@ -44,11 +44,57 @@ h2 ~ p{
     color: #031c4e;
 }
 
+/*bottoni rotondi con hover*/
 .circle_button{
     width: 10px;
     height: 10px;
     border: 1px solid #006aff;
     border-radius: 50%;
+}
+
+#digitalocean .circle_button:hover,
+#developers .circle_button:hover{
+    background-color:  #006aff;
+}
+
+#digitalocean li,
+#developers li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+/*container al centro con img e
+frecce ai lati */
+.arrow_position{
+    max-width: 100%;
+    position: relative;
+    padding-top: 40px;
+    padding-bottom: 15px;
+}
+
+.container_img_developers{
+    max-width: 60%;
+    margin: auto;
+}
+
+.container_img_developers img{
+    padding-bottom: 15px;
+}
+
+.left_arrow{
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+}
+
+.right_arrow{
+    position: absolute;
+    top: 50%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
 }
 
 /*FINE COMMON*/
@@ -205,49 +251,8 @@ header li{
     padding: 50pX 0;
 }
 
-#developers .container_img_developers{
-    max-width: 60%;
-    margin: auto;
-}
-
-#developers .container_img_developers img{
-    padding-bottom: 15px;
-}
-
-.arrow_position{
-    max-width: 100%;
-    position: relative;
-    padding-top: 40px;
-    padding-bottom: 15px;
-}
-
 #developers p:last-of-type{
     font-size: 15px;
-}
-
-.left_arrow{
-    position: absolute;
-    top: 50%;
-    left: 15%;
-    transform: translate(-50%, -50%);
-    font-size: 30px;
-}
-
-.right_arrow{
-    position: absolute;
-    top: 50%;
-    left: 85%;
-    transform: translate(-50%, -50%);
-    font-size: 30px;
-}
-
-#developers li{
-    list-style-type: none;
-    display: inline-block;
-}
-
-#developers .circle_button:hover{
-    background-color:  #006aff;
 }
 
 /*FINE DEVELOPERS*/
@@ -316,6 +321,35 @@ header li{
 #countries .padding_bottom{
     padding-bottom: 25px;
 }
-
 /*FINE COUNTRIES*/
+
+/*DIGITALOCEAN*/
+#digitalocean{
+    text-align: center;
+    padding: 40px 0;
+}
+
+#digitalocean .container_img_developers{
+    font-size: 28px;
+    background-color: white;
+    padding: 40px;
+    border-radius: 5px;
+}
+/*FINE DIGITALOCEAN*/
+
+/*STARTED NOW*/
+#started_now{
+    text-align: center;
+    padding: 40px 0;
+}
+
+#started_now h2{
+    color:white;
+    padding-bottom: 15px;
+}
+
+#started_now button{
+    color: #0033af;
+} 
+/*FINE STARTED NOW*/
 /*FINE MAIN*/
