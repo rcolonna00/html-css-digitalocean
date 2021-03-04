@@ -16,6 +16,10 @@ img{
     background-color: #f3f5f9;
 }
 
+.background_blu{
+    background-color: #0033af;
+}
+
 h2{
     font-weight: 700;
     color: #031c4e;
@@ -263,4 +267,54 @@ header li{
 }
 
 /*FINE FEATURES*/
+
+/*COUNTRIES*/
+#countries{
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+
+#countries h2{
+    color: white;
+    font-size: 25px;
+}
+#countries .border_bottom{
+    border-bottom: 1px solid white;
+}
+
+#countries li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+#countries ul{
+    padding: 12px;
+    margin-bottom: 0px;
+}
+
+#countries .countries_left{
+    width: 20%;
+    text-align: left;
+}
+
+#countries .countries_center{
+    width: 52%;
+    text-align: left;
+}
+
+#countries .countries_right{
+    width: 25%;
+    text-align: center;
+}
+
+#countries a{
+    color: #00bdcd;
+}
+
+#countries .padding_bottom{
+    padding-bottom: 25px;
+}
+
+/*FINE COUNTRIES*/
 /*FINE MAIN*/
