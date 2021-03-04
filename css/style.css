@@ -12,6 +12,7 @@ img{
     max-width: 100%;
 }
 
+/*BACKGROUND*/
 .background_grey{
     background-color: #f3f5f9;
 }
@@ -20,6 +21,11 @@ img{
     background-image: linear-gradient(#0048C6, #001F9A);
 }
 
+.background_bluscuro{
+    background-color: #031c4e;
+}
+
+/* H */
 h2{
     font-weight: 700;
     color: #031c4e;
@@ -353,3 +359,43 @@ header li{
 } 
 /*FINE STARTED NOW*/
 /*FINE MAIN*/
+
+/*FOOTER*/
+footer{
+    color: white;
+    padding: 50px 0;
+    text-align: left;
+
+
+
+
+    /*test*/
+    height: 1000px;
+}
+
+footer img{
+    padding-bottom: 10px;
+}
+
+footer ul{
+    color: #7a859d;
+    padding-left: 0;
+    list-style-type: none;
+    font-size: 20px;
+}
+
+footer li{
+    padding-bottom: 10px;
+}
+
+footer .icon_social{
+    font-size: 28px;
+    padding-top: 10px;
+}
+
+footer .icon_social li{
+    display: inline-block;
+    padding-right: 5px;
+}
+
+/*FINE FOOTER*/
