@@ -39,6 +39,18 @@ h2 ~ p{
     margin: auto;
 }
 
+
+#developers a:hover{
+    color: #031c4e;
+}
+
+.circle_button{
+    width: 10px;
+    height: 10px;
+    border: 1px solid #006aff;
+    border-radius: 50%;
+}
+
 /*FINE COMMON*/
 
 /*HEADER*/
@@ -229,20 +241,9 @@ header li{
     font-size: 30px;
 }
 
-#developers a:hover{
-    color: #031c4e;
-}
-
 #developers li{
     list-style-type: none;
     display: inline-block;
-}
-
-.circle_button{
-    width: 10px;
-    height: 10px;
-    border: 1px solid #006aff;
-    border-radius: 50%;
 }
 
 #developers .circle_button:hover{
